@@ -24,7 +24,8 @@ export default function WeatherUnit(props) {
             <div>
                 <span className="temperature">{Math.round((props.celsius)*9/5)+32}</span>
             <span className="unit">
-                <a href="/" onClick={showCelsius}>°C</a> | °F </span>
+                <a href="/" onClick={showCelsius}>°C</a>
+                | °F </span>
             </div>
         );
     }
